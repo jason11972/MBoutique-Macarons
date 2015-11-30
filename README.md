@@ -10,14 +10,18 @@
 
 ### dynamic menu generation ###
 
-- create an associative array
-  - with all of the menu items from the header (about, contact, home, etc)
-  - make nested key value pairs
-  - array should contain the following information for each link
-    - the menu item name
-    - the URL to go to in the a href
-    - whether the menu item is the default menu item (the item to display on initial page load)
-- create the menu dynamically, from the associative array, in php
+- Create your top menu dynamically via data in an associative array
+- links in the menu should all make requests to index.php
+- each link should pass data to index.php via the query string
 
-### display the home page based on the default page in the 
-- using include, display the home page based on the dynamic array defined above
+### in index.php:
+- show the center content plus any related content (some of you have custom CSS files) based on the passed in query string data
+- verify that the query string is set.  if not, go to a default value
+- if the query string variable points to an invalid entry, go to 404.php that has a 404 message
+
+### for contact.php
+- make the form go to index.php, page contact, via the query string
+- form should use the post method
+- if post data for the form is supplied, it should show the data supplied, NOT the form.
+
+
