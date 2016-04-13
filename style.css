@@ -101,11 +101,11 @@ footer li {
     margin:11%;
 }
 .facebook {
-   padding: 0 1% 0% 1%;
+   padding: 0 1% 0 1%;
 }
 .copyright {
     position:absolute;
-    left:50%
+    left:100%;
     color:white;
     transform:translate(-50%, -50%);
     top: 70%;
