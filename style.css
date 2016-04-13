@@ -65,6 +65,7 @@ header {
     width:126px;
     background-color:#fffabe;
     margin-left:5%;
+    padding-bottom:.5%;
 }
 .coconut {
     background-color:#824603;
@@ -83,13 +84,31 @@ header {
     color:white;
 }
 footer {
-    background-color: #df5277;
-    width: 100%;
-    height: 80px;
-    display: inline;
+    background-color:#df5277;
+    width:100%;
+    height:80px;
+    margin-top:2%;
+}
+footer ul {
+    list-style-type: none;
+    display:inline;
+    color:white;
+    position:relative;
+
 }
 footer li {
-
+    display:inline;
+    margin:11%;
+}
+.facebook {
+   padding: 0 1% 0% 1%;
+}
+.copyright {
+    position:absolute;
+    left:50%
+    color:white;
+    transform:translate(-50%, -50%);
+    top: 70%;
+    margin:3% 0 0 -50%;
 }
 
-}
