@@ -15,7 +15,7 @@
     font-size: 16px;
     color:#6a6969;
 }
-.welcomemessage {
+.welcomemessage  {
     margin:-9% 5% 3% 36%;
 }
 
@@ -233,5 +233,66 @@ h2 {
     background-repeat:no-repeat;
     background-position:bottom;
 }
-
-
+.contactmap {
+    width:80%
+    height:400px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.hoursopendiv ul {
+    list-style-type: none;
+}
+.hoursopendiv {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#6a6969;
+    margin: 10% 72% 0 10%;
+    display:inline-block;
+}
+.hoursopendiv ul li {
+    margin-bottom:1%;
+}
+.storeaddress  {
+    margin: 3% 90% 3% 10%;
+}
+.contactpgemail {
+    margin: 3% 90% 3% 12%;
+    color:red;
+}
+.sendyourquestions {
+    margin: 3% 8% 3% 12%;
+}
+.contactus {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:#6a6969;
+}
+.inputfields {
+    width: 310px;
+    height:35px;
+}
+.contact_button {
+    width:155px;
+    height:35px;
+    background-color:#f5f5f5;
+    margin-left:55%;
+}
+.message_body {
+    width:310px;
+    height:70px;
+    background-color:#f5f5f5;
+}
+.input_container {
+    width:310px;
+    height:35px;
+    background-color:#f5f5f5;
+    margin:3%;
+}
+.message_body {
+    width:310px;
+    background-color:#f5f5f5;
+    margin:3%;
+}
+.contactforminputs {
+    margin:-17% 0 0 43%;
+}

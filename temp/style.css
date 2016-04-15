@@ -1,0 +1,20 @@
+/* Add your CSS here */
+#navbar-nav:hover {
+    color:#d42551;
+
+}
+#navbar-nav {
+    width:1000px;
+    height:72px;
+}
+.welcomeparagraph {
+    font-family: Arial sans-serif; Helvetica;
+    font-size:14px;
+    color:#6a6969;
+}
+body {
+    width: 55vw;
+}
+#entire {
+    margin: 10% 20% 10% 20%;
+}
